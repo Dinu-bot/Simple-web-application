@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Homepage.css">
+    <title>DT TECHNOLOGIES</title>
+    <script src="homepage.js" defer></script>
+</head>
+
+<body>
+    <div class="background">
+        <header class="flex">
+            <h3>BUILD YOUR OWN PC</h3>
+            <button class="mobile-nav-toggle" aria-expanded="false"></button>
+            <nav>
+                <ul class="flex navigation" data-visible="false">
+                    <li><a class="nav__link" href="">Store</a></li>
+                    <li><a class="nav__link nav_link_nowrap" href="">Daily Deals</a></li>
+                    <li><a class="nav__link" href="">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="product-grid">
+        <div class="card stacked"  onclick="showTable('monitor-table')">
+            <img src="./Assets/asusreflex.edited.jpg" alt="Monitors" class="card__img">
+            <div class="card__content">
+                <h2 class="card__title">Monitors</h2>
+            </div>
+        </div>
+        <div class="card stacked" onclick="showTable('lap-table')">
+            <img src="./Assets/pexels-junior-teixeira-2047905-1-scaled-1.jpg" alt="Laptops" class="card__img">
+            <div class="card__content">
+                <h2 class="card__title">Laptops</h2>
+            </div>
+        </div>
+        <div class="card stacked" onclick="showTable('gaming-gear')">
+            <img src="./Assets/Razer-BlackWidow-Kraken-Basilisk-Essential-Press-Size.png" alt="Gaming Gear"
+                class="card__img"  >
+            <div class="card__content">
+                <h2 class="card__title">Gaming Gear</h2>
+            </div>
+        </div>
+        <div class="card stacked" onclick="showTable('pc-components')">
+            <img src="./Assets/tai-bui-Q-xGz9NOVOE-unsplash.jpg" alt="PC Components" class="card__img">
+            <div class="card__content">
+                <h2 class="card__title">PC Components</h2>
+            </div>
+        </div>
+    </div>
+    <table id="lap-table">
+        <tbody>
+            <tr>
+                
+                <th scope="col">laptop</th>
+                <th scope="col">Specifications</th>
+                
+            </tr>
+
+            <tr id="1">
+                
+                <td class="row-data">Macbook pro</td>
+                <td class="row-data"><a href="https://www.apple.com/macbook-air/" target="_blank" >Click here for more info </a></td>
+                
+            </tr>
+
+            <tr id="2">
+                
+                <td class="row-data">msi Leopard</td>
+                <td class="row-data"><a href="https://www.msi.com/Laptop/GL65-Leopard-10SX/Specification" target="_blank"> Click here for more info</a></td>
+               
+            </tr>
+
+            <tr id="3">
+                
+                <td class="row-data">Asus Rog zephyrus </td>
+                <td class="row-data">Sample spec</td>
+              
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table id="monitor-table">
+        <tbody>
+            <tr>
+               
+                <th scope="col">monitor</th>
+                <th scope="col">Specifications</th>
+               
+            </tr>
+
+            <tr id="1">
+               
+                <td class="row-data">Asus pro art</td>
+                <td class="row-data">4k UHD 32"</td>
+               
+            </tr>
+
+            <tr id="2">
+                
+                <td class="row-data">Gigabyte G32QC</td>
+                <td class="row-data">165Hz Curved QHD</td>
+               
+            </tr>
+
+            <tr id="3">
+              
+                <td class="row-data">Asus ROG Swift</td>
+                <td class="row-data">4k UHD IPS 144Hz</td>
+               
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="gaming-gear">
+        <tbody>
+            <tr>
+                
+                <th scope="col">Gear</th>
+                <th scope="col">Specifications</th>
+                
+            </tr>
+
+            <tr id="1">
+                
+                <td class="row-data">MicroPack GAming Keyboard</td>
+                <td class="row-data">RGB lighting</td>
+                
+            </tr>
+
+            <tr id="2">
+                
+                <td class="row-data">Logitec G302</td>
+                <td class="row-data">LIGHTSPEED wireless receiver</td>
+               
+            </tr>
+
+            <tr id="3">
+                
+                <td class="row-data">JBL Quantum 350 Wired</td>
+                <td class="row-data">Play even longer in memory foam comfort</td>
+              
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table id="pc-components">
+        <tbody>
+            <tr>
+                
+                <th scope="col">Pc-components</th>
+                <th scope="col">Specifications</th>
+               
+            </tr>
+
+            <tr id="1">
+                
+                <td class="row-data">core i7 12700k</td>
+                <td class="row-data">(8p+4E) 3.6 GHz LGA 1700</td>
+               
+            </tr>
+
+            <tr id="2">
+                
+                <td class="row-data">AMD Ryzen 5 5600X</td>
+                <td class="row-data">AM4 ^%W Desktop processor</td>
+               
+            </tr>
+
+            <tr id="3">
+                
+                <td class="row-data">CORSAIR Vengeance RGB pro </td>
+                <td class="row-data">16 GB 3200 Mhz</td>
+               
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
